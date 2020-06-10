@@ -1,0 +1,17 @@
+.chat-header{
+    display: flex;
+    margin: 15px;
+    position: relative;
+    
+}
+.header-content{
+    width: 100%;
+    border: black solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+
+}
+#s1{
+    border: 2px solid grey;
+}

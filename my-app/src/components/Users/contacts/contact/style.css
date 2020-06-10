@@ -1,0 +1,33 @@
+.contact:hover{
+    background-color: rgb(108, 213, 231);
+
+}
+.contact {
+    display: flex;
+    position: relative;
+    padding: 15px;
+    
+}
+
+.selected {
+    background-color: rgb(169, 220, 230);
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+.message-date {
+    margin-left: auto;
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+.last-message {
+    margin-top: 10px;
+}
+#i1{
+    color: green;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
