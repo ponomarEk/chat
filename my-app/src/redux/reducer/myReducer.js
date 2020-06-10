@@ -5,7 +5,7 @@ let initialState = {
     searchValue : '',
     users : [
         {
-            name : 'Igor Igor',
+            name : 'Igor Main',
             avatar : 'https://tutkatamka.com.ua/wp-content/uploads/2018/02/1-74.jpg',
             content : [
                 {
@@ -26,9 +26,8 @@ let initialState = {
             ]            
         },
         {
-            name : 'hy',
+            name : 'Best Friend',
             avatar : 'https://tutkatamka.com.ua/wp-content/uploads/2018/02/3-70.jpg',
-            date : new Date(2020, 4, 16, 12, 33, 10),
             content : [
                 {
                     id : 'to_me',
@@ -45,6 +44,41 @@ let initialState = {
                     message : `Fine! And you?`,
                     date : new Date(2020, 5, 2, 20, 4, 12)
                 }
+            ]
+        },
+        {
+            name : 'Alice Duda',
+            avatar : 'https://4tololo.ru/files/images/20151308202252.jpg',
+            content : [
+                {
+                    id : 'to_me',
+                    message : 'You so beautiful :)',
+                    date : new Date(2020, 2, 7, 14, 1, 23)
+                },
+                {
+                    id : 'from_me',
+                    message : `Hi , Thank you!`,
+                    date : new Date(2020, 2, 7, 14, 22, 17)
+                },
+                {
+                    id : 'from_me',
+                    message : `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+                    date : new Date(2020, 2, 7, 20, 4, 12)
+                }
+            ]
+        },
+        {
+            name : 'Jorginho',
+            avatar : 'https://www.comnews.ru/sites/default/files2019/styles/large/public/articles/2019-10/%D0%A0%D1%83%D0%B4%D0%BE%D0%B2_%D0%BA%D0%B2.jpg?itok=Wu2t8z1r',
+            content : [
+                
+            ]
+        },
+        {
+            name : 'Alex',
+            avatar : 'https://st.depositphotos.com/1008939/1880/i/450/depositphotos_18807295-stock-photo-portrait-of-handsome-man.jpg',
+            content : [
+               
             ]
         },
     ],
